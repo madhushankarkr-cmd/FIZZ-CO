@@ -1,4 +1,4 @@
-# ⚡ Fizz & Co — Immersive 3D Anti-Gravity E-Commerce Platform
+#  Fizz & Co — Immersive 3D Anti-Gravity E-Commerce Platform
 
 [![Deployment Status](https://img.shields.io/badge/Vercel-Live_Production-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://fizz-co.vercel.app/)
 [![Next.js Framework](https://img.shields.io/badge/Next.js_14-v14.x-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -17,14 +17,14 @@ Welcome to **Fizz & Co**, a cutting-edge, conversion-optimized headless 3D e-com
 This repository serves as a showcase for modern frontend engineering capabilities. The core objective was to break out of standard, flat 2D grid layouts common in legacy e-commerce stores, transitioning instead into an immersive product storytelling experience.
 
 ### Key Engineering Features:
-* **🪐 Mathematical Anti-Gravity Simulation:** Rather than utilizing heavy static animation scripts, the 3D can elements drift weightlessly on an uncoupled vertical sine-wave trajectory mapped directly through the WebGL render loop ticker (`useFrame`).
-* **🕹️ Restricted 360° Interaction (`/experience`):** A dedicated, high-performance interactive viewport utilizing customized `@react-three/drei` pointer vectors. Users can grab, spin, and inspect the product's layout details seamlessly across the horizontal plane.
-* **🛡️ SSR Dynamic Resilience:** Mitigates browser hydration issues and "window is not defined" deployment errors common when running Three.js inside Next.js by isolating rendering canvases behind asynchronous code-splitting wrappers (`ssr: false`).
-* **🎨 State-Driven Visual Context Morphing:** The layout structure, backdrop glow layers, and user interface accents smoothly update typography and token color values dynamically as the user filters through flavors.
+* ** Mathematical Anti-Gravity Simulation:** Rather than utilizing heavy static animation scripts, the 3D can elements drift weightlessly on an uncoupled vertical sine-wave trajectory mapped directly through the WebGL render loop ticker (`useFrame`).
+* ** Restricted 360° Interaction (`/experience`):** A dedicated, high-performance interactive viewport utilizing customized `@react-three/drei` pointer vectors. Users can grab, spin, and inspect the product's layout details seamlessly across the horizontal plane.
+* ** SSR Dynamic Resilience:** Mitigates browser hydration issues and "window is not defined" deployment errors common when running Three.js inside Next.js by isolating rendering canvases behind asynchronous code-splitting wrappers (`ssr: false`).
+* ** State-Driven Visual Context Morphing:** The layout structure, backdrop glow layers, and user interface accents smoothly update typography and token color values dynamically as the user filters through flavors.
 
 ---
 
-## 🍏 Product Flavor System Architecture
+##  Product Flavor System Architecture
 
 The site's data architecture is structured around three distinct product formulations, mapping individual design tokens across the layout components:
 
@@ -36,7 +36,7 @@ The site's data architecture is structured around three distinct product formula
 
 ---
 
-## 🛠️ The Technology Stack
+##  The Technology Stack
 
 * **Core Framework:** Next.js (App Router Architecture)
 * **Language Runtime:** TypeScript for strict compile-time type checking and contract predictability
@@ -46,7 +46,7 @@ The site's data architecture is structured around three distinct product formula
 
 ---
 
-## 🚀 Local Installation & Engineering Startup
+##  Local Installation & Engineering Startup
 
 Follow these steps to replicate the live environment structure on a local loop:
 
